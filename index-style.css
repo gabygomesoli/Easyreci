@@ -1,0 +1,24 @@
+nav {
+    background-color: #fcd3de; /* cor de fundo da barra */
+  }
+
+  nav ul {
+    list-style: none; /* remove as bolinhas padrão das listas */
+    margin: 0; /* remove a margem padrão da lista */
+    padding: 0; /* remove o preenchimento padrão da lista */
+  }
+
+  nav li {
+    display: inline-block; /* exibe os itens de menu em linha */
+  }
+
+  nav a {
+    display: block; /* torna o link ocupar toda a largura do item de menu */
+    padding: 15px; /* adiciona preenchimento ao link para espaçamento */
+    color: #E02828; /* cor do texto do link */
+    text-decoration: none; /* remove a decoração de sublinhado do link */
+  }
+
+  nav a:hover {
+    background-color: #f08c92; /* cor de fundo quando o link é passado o mouse por cima */
+  }
